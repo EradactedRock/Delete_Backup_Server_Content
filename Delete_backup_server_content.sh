@@ -6,8 +6,8 @@
 # Deletes both .bak and .BAK files older than 45 days
 
 # Define paths
-TARGET_PATH="/volume1/Box/Backup_SQL03/Backup"
-LOG_DIR="/volume1/Box/Backup_SQL03/Logs"
+TARGET_PATH="/path/to/file"
+LOG_DIR="/path/to/file"
 
 # Ensure the log directory exists
 mkdir -p "$LOG_DIR"
